@@ -3,8 +3,8 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@now/node-server",
-      "config": { "maxLambdaSize": "12mb" }
+      "use": "@now/node",
+      "config": { "maxLambdaSize": "50mb" }
     }
   ]
 }
