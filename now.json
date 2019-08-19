@@ -4,12 +4,8 @@
       "src": "index.js",
       "use": "@now/node",
       "config": {
-        "includeFiles": ["templates/**", "views/**"]
+        "includeFiles": ["build/**"]
       }
-    },
-    {
-      "src": "build/**",
-      "use": "@now/static"
     }
   ]
 }
